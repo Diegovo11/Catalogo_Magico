@@ -1,0 +1,103 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Moño Rosa Elegante",
+      "precio": 25.00,
+      "categoria": "elegantes",
+      "imagen": "moños/moños_1.png",
+      "descripcion": "Hermoso moño en tono rosa pastel, perfecto para ocasiones especiales",
+      "disponible": true
+    },
+    {
+      "id": 2,
+      "nombre": "Moño Azul Cielo",
+      "precio": 22.00,
+      "categoria": "clasicos",
+      "imagen": "moños/moños_2.png",
+      "descripcion": "Moño clásico en azul suave, ideal para uso diario",
+      "disponible": true
+    },
+    {
+      "id": 3,
+      "nombre": "Moño Dorado Premium",
+      "precio": 35.00,
+      "categoria": "elegantes",
+      "imagen": "moños/moños_3.png",
+      "descripcion": "Moño exclusivo con detalles dorados, máxima elegancia",
+      "disponible": true
+    },
+    {
+      "id": 4,
+      "nombre": "Moño Infantil Arcoíris",
+      "precio": 18.00,
+      "categoria": "infantiles",
+      "imagen": "moños/moños_4.png",
+      "descripcion": "Colorido moño diseñado especialmente para niñas",
+      "disponible": true
+    },
+    {
+      "id": 5,
+      "nombre": "Moño Vintage",
+      "precio": 28.00,
+      "categoria": "clasicos",
+      "imagen": "moños/moños_5.png",
+      "descripcion": "Estilo retro con un toque moderno y sofisticado",
+      "disponible": true
+    },
+    {
+      "id": 6,
+      "nombre": "Moño Perlas Blancas",
+      "precio": 40.00,
+      "categoria": "elegantes",
+      "imagen": "moños/moños_6.png",
+      "descripcion": "Exquisito moño decorado con perlas naturales",
+      "disponible": true
+    },
+    {
+      "id": 7,
+      "nombre": "Diadema Floral",
+      "precio": 30.00,
+      "categoria": "accesorios",
+      "imagen": "diademas/diademas_1.png",
+      "descripcion": "Delicada diadema con flores artificiales de alta calidad",
+      "disponible": true
+    },
+    {
+      "id": 8,
+      "nombre": "Diadema Cristales",
+      "precio": 45.00,
+      "categoria": "accesorios",
+      "imagen": "diademas/diademas_2.png",
+      "descripcion": "Elegante diadema con cristales brillantes",
+      "disponible": true
+    }
+  ],
+  "categorias": [
+    {
+      "id": "todos",
+      "nombre": "Todos",
+      "activa": true
+    },
+    {
+      "id": "clasicos",
+      "nombre": "Moños Clásicos",
+      "activa": false
+    },
+    {
+      "id": "elegantes",
+      "nombre": "Moños Elegantes",
+      "activa": false
+    },
+    {
+      "id": "infantiles",
+      "nombre": "Moños Infantiles",
+      "activa": false
+    },
+    {
+      "id": "accesorios",
+      "nombre": "Accesorios",
+      "activa": false
+    }
+  ]
+}
