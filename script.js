@@ -93,7 +93,7 @@ function crearTarjetaProducto(producto) {
         <p class="product-description">${producto.descripcion}</p>
         <p class="product-price">$${producto.precio.toFixed(2)}</p>
         <button class="add-to-cart" ${!producto.disponible ? 'disabled' : ''}>
-            ${producto.disponible ? 'Agregar al Carrito' : 'No Disponible'}
+            ${producto.disponible ? '📱 Hacer Pedido' : 'No Disponible'}
         </button>
     `;
     
@@ -187,20 +187,29 @@ function filtrarProductos(categoria) {
 
 // Agregar producto al carrito
 function agregarAlCarrito(producto, btnElement) {
-    // Efecto visual de agregado
+    // Scroll suave a la sección de contacto
+    const contactSection = document.getElementById('contact-section');
+    if (contactSection) {
+        contactSection.scrollIntoView({ 
+            behavior: 'smooth', 
+            block: 'start' 
+        });
+    }
+    
+    // Efecto visual de confirmación
     btnElement.style.background = '#10b981';
-    btnElement.textContent = '¡Agregado!';
+    btnElement.textContent = '✓ Ver contacto abajo';
     
     setTimeout(() => {
         btnElement.style.background = '';
-        btnElement.textContent = 'Agregar al Carrito';
-    }, 1500);
+        btnElement.textContent = '📱 Hacer Pedido';
+    }, 2000);
     
-    // Mostrar notificación
-    mostrarNotificacion(`${producto.nombre} agregado al carrito`);
+    // Mostrar notificación con instrucciones
+    mostrarNotificacion(`¡Perfecto! Contáctanos por redes sociales para ordenar: ${producto.nombre}`);
     
-    // Aquí puedes agregar lógica del carrito real
-    console.log('Producto agregado:', producto);
+    // Log para seguimiento
+    console.log('Producto seleccionado:', producto);
 }
 
 // ===== FUNCIONES DE UI =====
