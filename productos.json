@@ -59,7 +59,7 @@
       "nombre": "Balerina con flor",
       "precio": 12.00,
       "categoria": "balerinas",
-      "imagen": "diademas/balerina_flor.jpeg",
+      "imagen": "balerinas/balerina_flor.jpeg",
       "descripcion": "Balerina con flor y perla decorativa",
       "disponible": true
     },
@@ -68,7 +68,7 @@
       "nombre": "Balerina Boutique",
       "precio": 12.00,
       "categoria": "balerinas",
-      "imagen": "diademas/balerina_bouique.jpeg",
+      "imagen": "balerinas/balerina_bouique.jpeg",
       "descripcion": "Balerina boutique con perlas",
       "disponible": true
     },
@@ -77,7 +77,7 @@
       "nombre": "Moño con caritas",
       "precio": 15.00,
       "categoria": "moños",
-      "imagen": "peinetas/moño_carita.jpeg",
+      "imagen": "moños/moño_carita.jpeg",
       "descripcion": "Moño con caritas",
       "disponible": true
     },
@@ -86,7 +86,7 @@
       "nombre": "Peineta con flor",
       "precio": 20.00,
       "categoria": "peinetas",
-      "imagen": "peinetas/peinetas_rosaeterna.jpeg",
+      "imagen": "peineta/peinetas_rosaeterna.jpeg",
       "descripcion": "Peineta de rosas eternas",
       "disponible": true
     }
