@@ -70,7 +70,7 @@ function renderizarProductos(productos) {
     
     productos.forEach(producto => {
         if (categoriaActual === 'todos' || producto.categoria === categoriaActual) {
-            const productCard = crearTarjetaProducto(producto);
+            const productCard = crearTarjetaProductoConModal(producto);
             gridContainer.appendChild(productCard);
         }
     });
@@ -287,4 +287,75 @@ function actualizarProducto(id, datosActualizados) {
         productosData.productos[index] = { ...productosData.productos[index], ...datosActualizados };
         renderizarProductos(productosData.productos);
     }
+}
+
+// ===== FUNCIONALIDAD DEL MODAL DE IMAGEN =====
+
+// Variables del modal
+const modal = document.getElementById('imageModal');
+const modalImage = document.getElementById('modalImage');
+const modalName = document.getElementById('modalName');
+const modalDescription = document.getElementById('modalDescription');
+const modalPrice = document.getElementById('modalPrice');
+const modalClose = document.getElementById('modalClose');
+
+// Función para abrir el modal con la imagen
+function abrirModal(producto) {
+    modalImage.src = producto.imagen;
+    modalImage.alt = producto.nombre;
+    modalName.textContent = producto.nombre;
+    modalDescription.textContent = producto.descripcion;
+    modalPrice.textContent = `$${producto.precio.toFixed(2)}`;
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden'; // Prevenir scroll
+}
+
+// Función para cerrar el modal
+function cerrarModal() {
+    modal.classList.remove('active');
+    document.body.style.overflow = ''; // Restaurar scroll
+}
+
+// Event listener para cerrar con el botón X
+modalClose.addEventListener('click', cerrarModal);
+
+// Event listener para cerrar al hacer clic fuera de la imagen
+modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+        cerrarModal();
+    }
+});
+
+// Event listener para cerrar con la tecla ESC
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal.classList.contains('active')) {
+        cerrarModal();
+    }
+});
+
+// Modificar la función crearTarjetaProducto para agregar el evento de clic en la imagen
+function crearTarjetaProductoConModal(producto) {
+    const card = document.createElement('div');
+    card.className = `product-card ${!producto.disponible ? 'product-unavailable' : ''}`;
+    card.setAttribute('data-id', producto.id);
+    
+    card.innerHTML = `
+        <div class="product-image" data-producto-id="${producto.id}">
+            ${crearImagenProducto(producto)}
+        </div>
+        <h3 class="product-name">${producto.nombre}</h3>
+        <p class="product-description">${producto.descripcion}</p>
+        <p class="product-price">$${producto.precio.toFixed(2)}</p>
+        <button class="add-to-cart" ${!producto.disponible ? 'disabled' : ''}>
+            ${producto.disponible ? '📱 Hacer Pedido' : 'No Disponible'}
+        </button>
+    `;
+    
+    // Agregar event listener a la imagen
+    const imageContainer = card.querySelector('.product-image');
+    imageContainer.addEventListener('click', () => {
+        abrirModal(producto);
+    });
+    
+    return card;
 }
