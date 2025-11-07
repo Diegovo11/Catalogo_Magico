@@ -32,7 +32,7 @@
       "nombre": "Leles",
       "precio": 40.00,
       "categoria": "diademas",
-      "imagen": "moños/leles.jpeg",
+      "imagen": "diademas/leles.jpeg",
       "descripcion": "Diademas con listones coloridos",
       "disponible": true
     },
@@ -41,7 +41,7 @@
       "nombre": "Diadema con 4 flores",
       "precio": 25.00,
       "categoria": "diademas",
-      "imagen": "moños/diadema_4flores.jpeg",
+      "imagen": "diademas/diadema_4flores.jpeg",
       "descripcion": "Diadema con 4 flores decorativas",
       "disponible": true
     },
