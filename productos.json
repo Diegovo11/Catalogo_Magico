@@ -2,74 +2,92 @@
   "productos": [
     {
       "id": 1,
-      "nombre": "Moño Rojo",
-      "precio": 10.00,
-      "categoria": "elegantes",
-      "imagen": "moños/moños_1.png",
-      "descripcion": "Hermoso moño en tono rojo, perfecto para ocasiones especiales",
+      "nombre": "Moño Boutique",
+      "precio": 35.00,
+      "categoria": "moños",
+      "imagen": "moños/moño_boutique.jpeg",
+      "descripcion": "Moño boutique con liston estampado",
       "disponible": true
     },
     {
       "id": 2,
-      "nombre": "Moño Rosa claro",
-      "precio": 10.00,
-      "categoria": "clasicos",
-      "imagen": "moños/moños_2.png",
-      "descripcion": "Moño clásico en rosa claro, ideal para uso diario",
+      "nombre": "Moño Coletero",
+      "precio": 40.00,
+      "categoria": "moños",
+      "imagen": "moños/moño_coletero.jpeg",
+      "descripcion": "Moño colatero estampado con perlas",
       "disponible": true
     },
     {
       "id": 3,
-      "nombre": "Moño Flor",
-      "precio": 10.00,
-      "categoria": "elegantes",
-      "imagen": "moños/moños_3.png",
-      "descripcion": "Moño con detalles en rojo y blanco, máxima elegancia",
+      "nombre": "Moño Unicornio",
+      "precio": 15.00,
+      "categoria": "moños",
+      "imagen": "moños/moño_unicornio.jpeg",
+      "descripcion": "Moño unicornio par con caritas",
       "disponible": true
     },
     {
       "id": 4,
-      "nombre": "Moño Escolar",
-      "precio": 10.00,
-      "categoria": "infantiles",
-      "imagen": "moños/moños_4.png",
-      "descripcion": "Colorido moño diseñado especialmente para niñas",
+      "nombre": "Leles",
+      "precio": 40.00,
+      "categoria": "diademas",
+      "imagen": "moños/leles.jpeg",
+      "descripcion": "Diademas con listones coloridos",
       "disponible": true
     },
     {
       "id": 5,
-      "nombre": "Moño con figura de helado",
-      "precio": 12.00,
-      "categoria": "clasicos",
-      "imagen": "moños/moños_5.png",
-      "descripcion": "Moño con un toque moderno y figuras divertidas",
+      "nombre": "Diadema con 4 flores",
+      "precio": 25.00,
+      "categoria": "diademas",
+      "imagen": "moños/diadema_4flores.jpeg",
+      "descripcion": "Diadema con 4 flores decorativas",
       "disponible": true
     },
     {
       "id": 6,
-      "nombre": "Moño de conejo",
-      "precio": 12.00,
-      "categoria": "elegantes",
-      "imagen": "moños/moños_6.png",
-      "descripcion": "Exquisito moño decorado con figuras de conejo",
+      "nombre": "Moño pulpo",
+      "precio": 15.00,
+      "categoria": "moños",
+      "imagen": "moños/moño_pulpo.jpeg",
+      "descripcion": "Moño pulpo con detalles de mini moñitos",
       "disponible": true
     },
     {
       "id": 7,
-      "nombre": "Diadema tricolor",
-      "precio": 25.00,
-      "categoria": "accesorios",
-      "imagen": "diademas/diademas_1.png",
-      "descripcion": "Diadema tricolor de trenzado",
+      "nombre": "Balerina con flor",
+      "precio": 12.00,
+      "categoria": "balerinas",
+      "imagen": "diademas/balerina_flor.jpeg",
+      "descripcion": "Balerina con flor y perla decorativa",
       "disponible": true
     },
     {
       "id": 8,
-      "nombre": "Diadema Cristales",
+      "nombre": "Balerina Boutique",
+      "precio": 12.00,
+      "categoria": "balerinas",
+      "imagen": "diademas/balerina_bouique.jpeg",
+      "descripcion": "Balerina boutique con perlas",
+      "disponible": true
+    },
+    {
+      "id": 9,
+      "nombre": "Moño con caritas",
+      "precio": 15.00,
+      "categoria": "moños",
+      "imagen": "peinetas/moño_carita.jpeg",
+      "descripcion": "Moño con caritas",
+      "disponible": true
+    },
+    {
+      "id": 10,
+      "nombre": "Peineta con flor",
       "precio": 20.00,
-      "categoria": "accesorios",
-      "imagen": "diademas/diademas_2.png",
-      "descripcion": "Elegante diadema con cristales brillantes",
+      "categoria": "peinetas",
+      "imagen": "peinetas/peinetas_rosaeterna.jpeg",
+      "descripcion": "Peineta de rosas eternas",
       "disponible": true
     }
   ],
@@ -80,23 +98,23 @@
       "activa": true
     },
     {
-      "id": "clasicos",
-      "nombre": "Moños Clásicos",
+      "id": "moños",
+      "nombre": "Moños",
       "activa": false
     },
     {
-      "id": "elegantes",
-      "nombre": "Moños Elegantes",
+      "id": "diademas",
+      "nombre": "Diademas",
       "activa": false
     },
     {
-      "id": "infantiles",
-      "nombre": "Moños Infantiles",
+      "id": "balerinas",
+      "nombre": "Balerinas",
       "activa": false
     },
     {
-      "id": "accesorios",
-      "nombre": "Accesorios",
+      "id": "peinetas",
+      "nombre": "Peinetas",
       "activa": false
     }
   ]
