@@ -92,11 +92,29 @@
     },
     {
       "id": 11,
-      "nombre": "Peineta con flor",
-      "precio": 20.00,
+      "nombre": "Moño Navideño Rojo",
+      "precio": 30.00,
       "categoria": "navidad",
-      "imagen": "peineta/peinetas_rosaeterna.jpeg",
-      "descripcion": "Peineta de rosas eternas",
+      "imagen": "navidad/moño_navidad_rojo.jpeg",
+      "descripcion": "Moño navideño rojo con detalles dorados",
+      "disponible": true
+    },
+    {
+      "id": 12,
+      "nombre": "Moño Navideño Blanco",
+      "precio": 28.00,
+      "categoria": "navidad",
+      "imagen": "navidad/moño_navidad_blanco.jpeg",
+      "descripcion": "Moño blanco con nieve artificial",
+      "disponible": true
+    },
+    {
+      "id": 13,
+      "nombre": "Diadema Navideña",
+      "precio": 35.00,
+      "categoria": "navidad",
+      "imagen": "navidad/diadema_navidad.jpeg",
+      "descripcion": "Diadema con motivos navideños",
       "disponible": true
     }
     
@@ -129,7 +147,7 @@
     },
     {
       "id": "navidad",
-      "nombre": "Navidad",
+      "nombre": "🎄 Navidad",
       "activa": false
     }
   ]
