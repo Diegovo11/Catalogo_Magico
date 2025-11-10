@@ -89,7 +89,17 @@
       "imagen": "peineta/peinetas_rosaeterna.jpeg",
       "descripcion": "Peineta de rosas eternas",
       "disponible": true
+    },
+    {
+      "id": 11,
+      "nombre": "Peineta con flor",
+      "precio": 20.00,
+      "categoria": "navidad",
+      "imagen": "peineta/peinetas_rosaeterna.jpeg",
+      "descripcion": "Peineta de rosas eternas",
+      "disponible": true
     }
+    
   ],
   "categorias": [
     {
