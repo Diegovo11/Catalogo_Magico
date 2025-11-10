@@ -530,23 +530,42 @@ h1 {
     flex-shrink: 0;
 }
 
+/* WhatsApp específico */
+.social-link.whatsapp {
+    background: linear-gradient(135deg, #25D366 0%, #20BA58 100%);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.social-link.whatsapp:hover {
+    background: linear-gradient(135deg, #20BA58 0%, #1a8a47 100%);
+    box-shadow: 0 8px 20px rgba(37, 211, 102, 0.5);
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Instagram específico */
 .social-link.instagram {
     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .social-link.instagram:hover {
     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     filter: brightness(1.1);
+    border-color: rgba(255, 255, 255, 0.6);
 }
 
+/* Facebook específico */
 .social-link.facebook {
-    background: #1877f2;
+    background: linear-gradient(135deg, #1877f2 0%, #0d65d9 100%);
     color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .social-link.facebook:hover {
-    background: #0d65d9;
+    background: linear-gradient(135deg, #0d65d9 0%, #0a58ca 100%);
+    border-color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-divider {
@@ -1121,16 +1140,25 @@ h1 {
 
     .footer-title {
         font-size: 1.5rem;
+        margin-bottom: 12px;
+    }
+
+    .footer-description {
+        font-size: 1rem;
         margin-bottom: 25px;
     }
 
     .social-links {
         gap: 15px;
+        flex-direction: column;
+        align-items: stretch;
     }
 
     .social-link {
-        padding: 12px 20px;
-        font-size: 0.9rem;
+        padding: 14px 20px;
+        font-size: 0.95rem;
+        justify-content: center;
+        width: 100%;
     }
 
     .social-icon {
@@ -1219,6 +1247,11 @@ h1 {
 
     .footer-title {
         font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+
+    .footer-description {
+        font-size: 0.95rem;
         margin-bottom: 20px;
     }
 
@@ -1229,9 +1262,11 @@ h1 {
     }
 
     .social-link {
-        padding: 12px 20px;
+        padding: 13px 18px;
         font-size: 0.9rem;
         justify-content: center;
+        width: 100%;
+        border-radius: 25px;
     }
 
     .social-icon {
