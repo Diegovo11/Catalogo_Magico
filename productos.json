@@ -92,29 +92,29 @@
     },
     {
       "id": 11,
-      "nombre": "Moño Navideño Rojo",
-      "precio": 30.00,
+      "nombre": "Moño Reno",
+      "precio": 15.00,
       "categoria": "navidad",
-      "imagen": "navidad/moño_navidad_rojo.jpeg",
-      "descripcion": "Moño navideño rojo con detalles dorados",
+      "imagen": "navidad/moño_reno.jpeg",
+      "descripcion": "Moño navideño con cuernos de reno",
       "disponible": true
     },
     {
       "id": 12,
-      "nombre": "Moño Navideño Blanco",
-      "precio": 28.00,
+      "nombre": "Moño Santa",
+      "precio": 12.00,
       "categoria": "navidad",
-      "imagen": "navidad/moño_navidad_blanco.jpeg",
-      "descripcion": "Moño blanco con nieve artificial",
+      "imagen": "navidad/moño_santa.jpeg",
+      "descripcion": "Moño navideño con traje de Santa Claus",
       "disponible": true
     },
     {
       "id": 13,
-      "nombre": "Diadema Navideña",
-      "precio": 35.00,
+      "nombre": "Moño Arbol de Navidad",
+      "precio": 10.00,
       "categoria": "navidad",
-      "imagen": "navidad/diadema_navidad.jpeg",
-      "descripcion": "Diadema con motivos navideños",
+      "imagen": "navidad/moño_arbol.jpeg",
+      "descripcion": "Moño en forma de arbol de Navidad",
       "disponible": true
     }
     
