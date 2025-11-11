@@ -1,2 +1,2 @@
-Catálogo Moños Mágicos - Guía de Administración
+Catálogo Moños Mágicos - Tienda online
 
