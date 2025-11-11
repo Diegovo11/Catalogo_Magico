@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Allow: *.css
+Allow: *.js
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.png
+Allow: *.gif
+Allow: *.svg
+
+Disallow: /admin/
+Disallow: *.pdf$
+
+Sitemap: https://lazosmagicos.up.railway.app/sitemap.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
