@@ -5,7 +5,7 @@
       "nombre": "Moño Boutique",
       "precio": 35.00,
       "categoria": "moños",
-      "imagen": "moños/moño_boutique.jpeg",
+      "imagen": "moños/moño_boutique.webp",
       "descripcion": "Moño boutique con liston estampado",
       "disponible": true
     },
@@ -14,7 +14,7 @@
       "nombre": "Moño Coletero",
       "precio": 40.00,
       "categoria": "moños",
-      "imagen": "moños/moño_coletero.jpeg",
+      "imagen": "moños/moño_coletero.webp",
       "descripcion": "Moño colatero estampado con perlas",
       "disponible": true
     },
@@ -23,7 +23,7 @@
       "nombre": "Moño Unicornio",
       "precio": 15.00,
       "categoria": "moños",
-      "imagen": "moños/moño_unicornio.jpeg",
+      "imagen": "moños/moño_unicornio.webp",
       "descripcion": "Moño unicornio par con caritas",
       "disponible": true
     },
@@ -32,7 +32,7 @@
       "nombre": "Leles",
       "precio": 40.00,
       "categoria": "diademas",
-      "imagen": "diademas/leles.jpeg",
+      "imagen": "diademas/leles.webp",
       "descripcion": "Diademas con listones coloridos",
       "disponible": true
     },
@@ -41,7 +41,7 @@
       "nombre": "Diadema con 4 flores",
       "precio": 25.00,
       "categoria": "diademas",
-      "imagen": "diademas/diadema_4flores.jpeg",
+      "imagen": "diademas/diadema_4flores.webp",
       "descripcion": "Diadema con 4 flores decorativas",
       "disponible": true
     },
@@ -50,7 +50,7 @@
       "nombre": "Moño pulpo",
       "precio": 15.00,
       "categoria": "moños",
-      "imagen": "moños/moño_pulpo.jpeg",
+      "imagen": "moños/moño_pulpo.webp",
       "descripcion": "Moño pulpo con detalles de mini moñitos",
       "disponible": true
     },
@@ -59,7 +59,7 @@
       "nombre": "Balerina con flor",
       "precio": 12.00,
       "categoria": "balerinas",
-      "imagen": "balerinas/balerina_flor.jpeg",
+      "imagen": "balerinas/balerina_flor.webp",
       "descripcion": "Balerina con flor y perla decorativa",
       "disponible": true
     },
@@ -68,7 +68,7 @@
       "nombre": "Balerina Boutique",
       "precio": 12.00,
       "categoria": "balerinas",
-      "imagen": "balerinas/balerina_bouique.jpeg",
+      "imagen": "balerinas/balerina_bouique.webp",
       "descripcion": "Balerina boutique con perlas",
       "disponible": true
     },
@@ -77,7 +77,7 @@
       "nombre": "Moño con caritas",
       "precio": 15.00,
       "categoria": "moños",
-      "imagen": "moños/moño_carita.jpeg",
+      "imagen": "moños/moño_carita.webp",
       "descripcion": "Moño con caritas",
       "disponible": true
     },
@@ -86,7 +86,7 @@
       "nombre": "Peineta con flor",
       "precio": 20.00,
       "categoria": "peinetas",
-      "imagen": "peineta/peinetas_rosaeterna.jpeg",
+      "imagen": "peineta/peinetas_rosaeterna.webp",
       "descripcion": "Peineta de rosas eternas",
       "disponible": true
     },
@@ -95,7 +95,7 @@
       "nombre": "Moño Reno",
       "precio": 15.00,
       "categoria": "navidad",
-      "imagen": "navidad/moño_reno.jpeg",
+      "imagen": "navidad/moño_reno.webp",
       "descripcion": "Moño navideño con cuernos de reno",
       "disponible": true
     },
@@ -104,7 +104,7 @@
       "nombre": "Moño Santa",
       "precio": 12.00,
       "categoria": "navidad",
-      "imagen": "navidad/moño_santa.jpeg",
+      "imagen": "navidad/moño_santa.webp",
       "descripcion": "Moño navideño con traje de Santa Claus",
       "disponible": true
     },
@@ -113,7 +113,7 @@
       "nombre": "Moño Arbol de Navidad",
       "precio": 10.00,
       "categoria": "navidad",
-      "imagen": "navidad/moño_arbol.jpeg",
+      "imagen": "navidad/moño_arbol.webp",
       "descripcion": "Moño en forma de arbol de Navidad",
       "disponible": true
     }
